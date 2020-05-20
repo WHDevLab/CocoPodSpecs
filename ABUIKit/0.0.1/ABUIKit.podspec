@@ -16,9 +16,5 @@ Pod::Spec.new do |s|
 
 	s.platform         = :ios, '10.0'
 	s.frameworks       = 'Foundation', 'UIKit', 'CoreGraphics', 'Photos'
-	# s.preserve_paths   = 'QMUIConfigurationTemplate/*'
 	s.source_files     = 'ABUIKit/**/*.{h,m}'
-
-	# s.resource_bundles = {'QMUIResources' => ['QMUIKit/QMUIResources/*.*']}
-	# spec.dependency "AFNetworking"
 end
